@@ -12,7 +12,7 @@ import meal from "../../images/meal.png";
 import ac from "../../images/ac.png";
 import calculator from "../../images/calculator.png";
 import library from "../../images/library.png";
-import { FaCode } from "react-icons/fa";
+import { FaInternetExplorer, FaCode } from "react-icons/fa";
 export default function ProjectPage() {
   return (
     <section className="home-section">
@@ -51,6 +51,21 @@ export default function ProjectPage() {
                                 </h5>
                                 <img src={nyc} alt={nyc} />
                                 <div className="project--showcaseBtn">
+                                <a
+                                  href={
+                                    "https://mohammadnewton.github.io/Barber-shop-project/"
+                                  }
+                                  target="_blank"
+                                  rel="noreferrer"
+                                  className={"iconBtn"}
+                                  aria-labelledby={`code`}
+                                >
+                                  <FaInternetExplorer
+                                    id={`code`}
+                                    className={"icon"}
+                                    aria-label="Code"
+                                  />
+                                </a>
                                   <a
                                     href={
                                       "https://github.com/mohammadnewton/Barber-shop-project"
@@ -118,6 +133,21 @@ export default function ProjectPage() {
                                     className={"iconBtn"}
                                     aria-labelledby={`code`}
                                   >
+                                    <FaInternetExplorer
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                  <a
+                                    href={
+                                      "https://github.com/mohammadnewton/modern_bank_app"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
                                     <FaCode
                                       id={`code`}
                                       className={"icon"}
@@ -167,6 +197,21 @@ export default function ProjectPage() {
                                 </h5>
                                 <img src={ci} alt={ci} />
                                 <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://bofulo-budget-app.onrender.com/"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaInternetExplorer
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
                                   <a
                                     href={
                                       "https://github.com/mohammadnewton/budget-app"
@@ -225,6 +270,21 @@ export default function ProjectPage() {
                                 </h5>
                                 <img src={eco} alt={eco} />
                                 <div className="project--showcaseBtn">
+                                <a
+                                    href={
+                                      "https://melodious-naiad-a806af.netlify.app/"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaInternetExplorer
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
                                   <a
                                     href={
                                       "https://github.com/mohammadnewton/haipcrm"
@@ -283,6 +343,21 @@ export default function ProjectPage() {
                                 </h5>
                                 <img src={pp} alt={pp} />
                                 <div className="project--showcaseBtn">
+                                <a
+                                  href={
+                                    "https://mohammadnewton.github.io/Newton-Capstone-Project/"
+                                  }
+                                  target="_blank"
+                                  rel="noreferrer"
+                                  className={"iconBtn"}
+                                  aria-labelledby={`code`}
+                                >
+                                  <FaInternetExplorer
+                                    id={`code`}
+                                    className={"icon"}
+                                    aria-label="Code"
+                                  />
+                                </a>
                                   <a
                                     href={
                                       "https://github.com/mohammadnewton/Newton-Capstone-Project"
@@ -344,6 +419,21 @@ export default function ProjectPage() {
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
+                                      "https://nextjs-chakra-ui-landing-page.vercel.app/"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaInternetExplorer
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                  <a
+                                    href={
                                       "https://github.com/mohammadnewton/Nextjs-Chakra-UI-Landing-Page"
                                     }
                                     target="_blank"
@@ -402,7 +492,22 @@ export default function ProjectPage() {
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/mohammadnewton/Coffee-Website"
+                                      "https://nextjs-chakra-ui-landing-page.vercel.app/"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaInternetExplorer
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                  <a
+                                    href={
+                                      "https://mohammadnewton.github.io/Coffee-Website/"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -458,6 +563,21 @@ export default function ProjectPage() {
                                 </h5>
                                 <img src={library} alt={library} />
                                 <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://soma-uhekimike-bofulo.netlify.app/"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaInternetExplorer
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
                                   <a
                                     href={
                                       "https://github.com/mohammadnewton/soma-uhekimike"
@@ -516,6 +636,21 @@ export default function ProjectPage() {
                                 </h5>
                                 <img src={calculator} alt={calculator} />
                                 <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://math-magician-11ou.onrender.com/"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaInternetExplorer
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
                                   <a
                                     href={
                                       "https://github.com/mohammadnewton/Math-Magician"
