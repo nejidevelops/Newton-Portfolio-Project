@@ -5,9 +5,9 @@ import Typing from "./Typing";
 import Tilt from "react-parallax-tilt";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
-import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaMediumM } from "react-icons/fa";
-import { BsTwitterX, BsDiscord } from "react-icons/bs";
+import { BsTwitterX } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
@@ -30,12 +30,10 @@ export default function Home() {
                   👋🏻
                 </span>
               </h1>
-
               <h1 className="heading-name">
                 I'm
                 <strong className="main-name"> Newton Ombese</strong>
               </h1>
-
               <div className="typing-homeclass">
                 <Typing />
               </div>

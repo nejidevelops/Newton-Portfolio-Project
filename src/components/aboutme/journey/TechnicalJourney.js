@@ -5,15 +5,11 @@ import {
 } from "react-vertical-timeline-component";
 import { Link } from "react-router-dom";
 import StarIcon from "@mui/icons-material/Star";
-import ComputerIcon from "@mui/icons-material/Computer";
 import {
   DiHtml5,
-  DiPython,
   DiReact,
-  DiPhp,
   DiJava,
   DiCss3,
-  DiJavascript1,
   DiMysql,
   DiNodejs,
   DiJavascript,

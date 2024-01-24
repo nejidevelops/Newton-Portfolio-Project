@@ -10,7 +10,6 @@ import {
 } from "react-icons/ai";
 import { FaBlog } from "react-icons/fa";
 import "../../style.css";
-import { CgFileDocument } from "react-icons/cg";
 export default function MyNav() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
