@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6bb2a255.css",
-    "main.js": "/static/js/main.203e4fe7.js",
+    "main.js": "/static/js/main.0e3a02aa.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/nyc.png": "/static/media/nyc.c86838701a10080fdf3d.png",
     "static/media/microverse.pdf": "/static/media/microverse.58711a6178ed448aac80.pdf",
@@ -32,11 +32,11 @@
     "static/media/chorme.svg": "/static/media/chorme.b0bd08e3d4226484ce842d3453b979e9.svg",
     "index.html": "/index.html",
     "main.6bb2a255.css.map": "/static/css/main.6bb2a255.css.map",
-    "main.203e4fe7.js.map": "/static/js/main.203e4fe7.js.map",
+    "main.0e3a02aa.js.map": "/static/js/main.0e3a02aa.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bb2a255.css",
-    "static/js/main.203e4fe7.js"
+    "static/js/main.0e3a02aa.js"
   ]
 }
