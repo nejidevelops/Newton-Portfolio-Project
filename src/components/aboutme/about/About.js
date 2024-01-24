@@ -30,7 +30,7 @@ const About = () => {
               <p className="home-about-body">
                 My name is <b className="purple">Newton Ombese</b> 
                   and I am a <b className="purple">Software Engineering Student</b> 
-                    student at <b className="purple">Microverse </b>
+                    at <b className="purple">Microverse </b>
                       an online bootcamp situated in USA.
                 <br />
                 <br />

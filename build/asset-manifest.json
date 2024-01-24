@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.09dd125a.css",
-    "main.js": "/static/js/main.1150aeab.js",
+    "main.css": "/static/css/main.6bb2a255.css",
+    "main.js": "/static/js/main.203e4fe7.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/nyc.png": "/static/media/nyc.c86838701a10080fdf3d.png",
     "static/media/microverse.pdf": "/static/media/microverse.58711a6178ed448aac80.pdf",
@@ -26,18 +26,17 @@
     "static/media/github.png": "/static/media/github.345dc4a21070f9083ca7.png",
     "static/media/meal.png": "/static/media/meal.1d6d8b8d1f90e10cd976.png",
     "static/media/pre.svg": "/static/media/pre.e4c81c26304bc309eb55.svg",
-    "static/media/Newton.pdf": "/static/media/Newton.33f42c579276082496e2.pdf",
     "static/media/h3.jpg": "/static/media/h3.dc52d5d40a40b13154b0.jpg",
     "static/media/onboarding.png": "/static/media/onboarding.824881964cea924df032.png",
     "static/media/calculator.png": "/static/media/calculator.a2aee1175e071690c414.png",
     "static/media/chorme.svg": "/static/media/chorme.b0bd08e3d4226484ce842d3453b979e9.svg",
     "index.html": "/index.html",
-    "main.09dd125a.css.map": "/static/css/main.09dd125a.css.map",
-    "main.1150aeab.js.map": "/static/js/main.1150aeab.js.map",
+    "main.6bb2a255.css.map": "/static/css/main.6bb2a255.css.map",
+    "main.203e4fe7.js.map": "/static/js/main.203e4fe7.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09dd125a.css",
-    "static/js/main.1150aeab.js"
+    "static/css/main.6bb2a255.css",
+    "static/js/main.203e4fe7.js"
   ]
 }
