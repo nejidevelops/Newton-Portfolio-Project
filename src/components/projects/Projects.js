@@ -6,7 +6,7 @@ import nyc from "../../images/nyc.png";
 import ci from "../../images/onboarding.png";
 import hd from "../../images/hd.png";
 import pp from "../../images/portfolio.png";
-import { FaCode } from "react-icons/fa";
+import { FaInternetExplorer, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
 
@@ -42,18 +42,27 @@ export default function Projects() {
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/mohammadnewton/Barber-shop-project"
+                          "https://mohammadnewton.github.io/Barber-shop-project/"
                         }
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
                         aria-labelledby={`code`}
                       >
-                        <FaCode
+                        <FaInternetExplorer
                           id={`code`}
                           className={"icon"}
                           aria-label="Code"
                         />
+                      </a>
+                      <a
+                        href={"https://github.com/mohammadnewton/Barber-shop-project"}
+                        target="_blank"
+                        rel="noreferrer"
+                        className={"iconBtn"}
+                        aria-labelledby={`github`}
+                      >
+                        <FaGithub />
                       </a>
                     </div>
                   </div>
@@ -107,11 +116,20 @@ export default function Projects() {
                         className={"iconBtn"}
                         aria-labelledby={`code`}
                       >
-                        <FaCode
+                        <FaInternetExplorer
                           id={`code`}
                           className={"icon"}
                           aria-label="Code"
                         />
+                      </a>
+                      <a
+                        href={"https://github.com/mohammadnewton/modern_bank_app"}
+                        target="_blank"
+                        rel="noreferrer"
+                        className={"iconBtn"}
+                        aria-labelledby={`github`}
+                      >
+                        <FaGithub />
                       </a>
                     </div>
                   </div>
@@ -158,18 +176,27 @@ export default function Projects() {
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/mohammadnewton/Newton-Capstone-Project"
+                          "https://mohammadnewton.github.io/Newton-Capstone-Project/"
                         }
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
                         aria-labelledby={`code`}
                       >
-                        <FaCode
+                        <FaInternetExplorer
                           id={`code`}
                           className={"icon"}
                           aria-label="Code"
                         />
+                      </a>
+                      <a
+                        href={"https://github.com/mohammadnewton/Newton-Capstone-Project"}
+                        target="_blank"
+                        rel="noreferrer"
+                        className={"iconBtn"}
+                        aria-labelledby={`github`}
+                      >
+                        <FaGithub />
                       </a>
                     </div>
                   </div>
