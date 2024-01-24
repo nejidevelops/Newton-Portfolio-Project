@@ -71,7 +71,6 @@ function ExperienceJourney() {
           <p>• Actively participated in the development process, and my code contributions were successfully merged into the project's main codebase.</p>
           <p>• Proficient in collecting and organizing data from diverse sources, utilizing statistical techniques and software applications for data analysis and creating comprehensive reports and presentations that showcase significant insights and trends.</p>
         </VerticalTimelineElement>
-
         <VerticalTimelineElement
           iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}
           icon={<StarIcon />}

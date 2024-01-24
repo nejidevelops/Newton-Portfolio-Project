@@ -65,7 +65,6 @@ export default function MyNav() {
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -78,17 +77,6 @@ export default function MyNav() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-
-            {/* <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item> */}
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -98,7 +86,6 @@ export default function MyNav() {
                 <ImBlog style={{ marginBottom: "2px" }} /> Certifications
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -108,7 +95,6 @@ export default function MyNav() {
                 <FaBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/mohammadnewton/Newton-Portfolio-Project"

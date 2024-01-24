@@ -1,14 +1,12 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import "./App.css";
 import "react-vertical-timeline-component/style.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Preloader from "./Preloader";
 import MyNav from "./components/navbar/MyNav";
 import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./pages/home_page/HomePage";
-// import Resume from "./pages/resume_page/ResumePage";
 import ProjectPage from "./pages/project_page/ProjectPage";
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/footer/Footer";
@@ -24,7 +22,6 @@ import Notfound from "./pages/blogs_page/notfound";
 import TechnicalJourney from "./components/aboutme/journey/TechnicalJourney";
 import ProjectJourney from "./components/aboutme/journey/ProjectJourney";
 import SocialMedia from "./components/aboutme/social_media/SocialMedia";
-// import Zoom from 'react-reveal/Zoom';
 import Toolkit from "./components/aboutme/skills/Toolkit";
 
 function App() {
@@ -64,7 +61,6 @@ function App() {
           </Route>
           <Route path="/projectspage" element={<ProjectPage />} />
           <Route path="/certificatepage" element={<CertificatePage />} />
-          {/* <Route path="/resume" element={<Resume />} /> */}
           <Route path="/blogs" element={<ComingSoon />} />
           <Route path="*" element={<Notfound />} />
         </Routes>

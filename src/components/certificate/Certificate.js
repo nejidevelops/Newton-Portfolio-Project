@@ -15,7 +15,6 @@ export default function Certificate() {
   return (
     <div className="mt-5">
       <Container>
-        {/* <Bounce left cascade> */}
         <Fade left cascade duration={1000} distance="20px">
           <Row className="g-5">
             <Col md={4}>
@@ -74,7 +73,6 @@ export default function Certificate() {
               />
             </Col>
           </Row>
-          {/* </Bounce> */}
         </Fade>
       </Container>
     </div>

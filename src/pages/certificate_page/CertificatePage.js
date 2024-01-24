@@ -4,16 +4,11 @@ import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
 import ucsc from "../../images/rwd.png";
 import ufm from "../../images/alx.png";
-import microverse from "../../images/microverse.pdf"
-import nh from "../../images/microverse-html.png";
-import nactar from "../../images/microverse-js.png";
-import ccna from "../../images/html.png";
+import microverse from "../../images/microverse.pdf";
 import cbta from "../../images/andelar.pdf";
 import skill from "../../images/andela-react.png";
 import c from "../../images/apprentice-cloud.jpeg";
 import iq from "../../images/datacamp-sql.png";
-import computer from "../../images/rwd.png";
-import graphics from "../../images/microverse-html.png";
 import microversefs from "../../images/microverse-fs.png";
 import Particle from "../../Particle";
 export default function CertificatePage() {

@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
 import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
 import hd from "../../images/hd.png";
 import pp from "../../images/portfolio.png";
 import { FaInternetExplorer, FaGithub } from "react-icons/fa";

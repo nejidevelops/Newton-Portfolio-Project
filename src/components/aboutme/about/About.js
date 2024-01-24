@@ -8,11 +8,8 @@ const About = () => {
   return (
     <div>
       <Container>
-        {/* <Slide left > */}
         <Row className="mt-5">
           <Col md={5}>
-            {/* <GreetingLottie animationPath="/lottie/coding.json" /> */}
-
             <Slide left>
               <lottie-player
                 src="https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json"
@@ -24,12 +21,11 @@ const About = () => {
               ></lottie-player>
             </Slide>
           </Col>
-
           <Col md={7}>
             <Fade duration={3000}>
               <p className="home-about-body">
                 My name is <b className="purple">Newton Ombese</b> 
-                  and I am a <b className="purple">Software Engineering Student</b> 
+                  and I am a <b className="purple">Software Engineering Student </b> 
                     at <b className="purple">Microverse </b>
                       an online bootcamp situated in USA.
                 <br />
@@ -43,7 +39,6 @@ const About = () => {
                 <br />
                 <br />
                 I also have experience working with frameworks and libraries such as &nbsp;
-
                   <b className="purple">
                     {" "}
                     NodeJS, ReactJS, AngularJS, Ruby On Rails, Django.{" "}
@@ -63,7 +58,6 @@ const About = () => {
             </Fade>
           </Col>
         </Row>
-        {/* </Slide> */}
       </Container>
     </div>
   );

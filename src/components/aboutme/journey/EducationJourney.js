@@ -101,7 +101,6 @@ function EducationJourney() {
             Studying Software Engineering for a 1 year duration. Learnt Ruby, Ruby on Rails, HTML, CSS, JS, React, PostgreSQL and some testing tools.
           </p>
         </VerticalTimelineElement>
-
         <VerticalTimelineElement
           iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}
           icon={<StarIcon />}

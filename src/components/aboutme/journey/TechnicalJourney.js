@@ -150,7 +150,6 @@ function TechnicalJourney() {
         >
           <h3 className="vertical-timeline-element-title">NODE JS</h3>
         </VerticalTimelineElement>
-
         <VerticalTimelineElement
           iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}
           icon={<StarIcon />}
