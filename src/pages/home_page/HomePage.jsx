@@ -41,7 +41,7 @@ export default function Home() {
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
                     <a
-                      href="https://github.com/mohammadnewton"
+                      href="https://github.com/nejidevelops"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -51,7 +51,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.linkedin.com/in/mohammad-newton-ombese/"
+                      href="https://www.linkedin.com/in/newton-ombese/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -61,7 +61,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://twitter.com/mohanewto200"
+                      href="https://x.com/nejidevelops"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
