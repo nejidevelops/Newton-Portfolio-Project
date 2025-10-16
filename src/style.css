@@ -1620,6 +1620,49 @@ html {
   font-weight: 700;
 }
 
+.submitBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.submitBtn:hover:not(:disabled) {
+  background-color: #f5d299;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(251, 217, 173, 0.3);
+}
+
+/* Error styles */
+.input-class.error {
+  border-color: #ff6b6b;
+  box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.2);
+}
+
+.error-message {
+  color: #ff6b6b;
+  font-size: 0.85rem;
+  margin-top: -1.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  font-weight: 500;
+}
+
+/* Loading spinner */
+.spinner {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  border-top: 2px solid #742586;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-right: 8px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .send-icon {
   font-size: 25px;
   transform-origin: center;
