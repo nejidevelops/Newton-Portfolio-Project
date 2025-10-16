@@ -21,7 +21,7 @@ export default function SocialMedia() {
         <Row className="g-5">
           <Col md={3}>
             <a
-              href="https://twitter.com/mohanewto200"
+              href="https://x.com/nejidevelops"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -45,7 +45,7 @@ export default function SocialMedia() {
           </Col>
           <Col md={3}>
             <a
-              href="https://github.com/mohammadnewton"
+              href="https://github.com/nejidevelops"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -57,7 +57,7 @@ export default function SocialMedia() {
           </Col>
           <Col md={3}>
             <a
-              href="https://www.linkedin.com/in/mohammad-newton-ombese/"
+              href="https://www.linkedin.com/in/newton-ombese/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"

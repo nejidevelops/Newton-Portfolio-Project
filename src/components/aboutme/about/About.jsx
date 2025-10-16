@@ -25,7 +25,7 @@ const About = () => {
             <Fade duration={3000}>
               <p className="home-about-body">
                 My name is <b className="purple">Newton Ombese</b> 
-                  and I am a <b className="purple">Software Engineering Student </b> 
+                  and I was a <b className="purple">Software Engineering Student </b> 
                     at <b className="purple">Microverse </b>
                       an online bootcamp situated in USA.
                 <br />
