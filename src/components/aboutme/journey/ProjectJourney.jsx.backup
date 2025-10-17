@@ -9,7 +9,7 @@ import JavascriptIcon from '@mui/icons-material/Javascript';
 import CssIcon from '@mui/icons-material/Css';
 import HtmlIcon from '@mui/icons-material/Html';
 import CodeIcon from '@mui/icons-material/Code';
-import { motion } from "framer-motion";
+import Flip from "react-reveal/Flip";
 
 function ProjectJourney() {
   return (
@@ -29,13 +29,9 @@ function ProjectJourney() {
         </Link>
       </div>
       <div className="mt-5">
-        <motion.div
-          initial={{ rotateX: -90, opacity: 0 }}
-          animate={{ rotateX: 0, opacity: 1 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-        >
+        <Flip top cascade>
           <h1>Project Journey</h1>
-        </motion.div>
+        </Flip>
       </div>
       <VerticalTimeline>
         <VerticalTimelineElement

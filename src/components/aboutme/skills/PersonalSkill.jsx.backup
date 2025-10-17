@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Container,Row,Col } from 'react-bootstrap';
-
+import LightSpeed from 'react-reveal/LightSpeed';
 
 export default function PersonalSkill() {
   return (
@@ -11,9 +11,9 @@ export default function PersonalSkill() {
             <Link className="btn btn-primary me-3" to="/personalskill">Personal Skill</Link>
             <Link className="btn btn-primary " to="/toolkit">Toolkit</Link>
         </div>
-        
+        <LightSpeed left cascade>
             <h1 className="mt-4">Personal Skills</h1>
-        
+        </LightSpeed>
         <div className="mt-4">
             <Container>
                 <Row className='g-5'>

@@ -6,7 +6,7 @@ import {
 import SchoolIcon from "@mui/icons-material/School";
 import { Link } from "react-router-dom";
 import StarIcon from "@mui/icons-material/Star";
-import { motion } from "framer-motion";
+import Flip from "react-reveal/Flip";
 
 function EducationJourney() {
   return (
@@ -26,13 +26,9 @@ function EducationJourney() {
         </Link>
       </div>
       <div className="mt-5">
-        <motion.div
-          initial={{ rotateX: -90, opacity: 0 }}
-          animate={{ rotateX: 0, opacity: 1 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-        >
+        <Flip top cascade>
           <h1>Qualification Journey</h1>
-        </motion.div>
+        </Flip>
       </div>
       <VerticalTimeline>
         <VerticalTimelineElement

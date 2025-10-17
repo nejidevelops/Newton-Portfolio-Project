@@ -17,7 +17,7 @@ import {
   DiAngularSimple,
   DiDjango,
 } from "react-icons/di";
-import Flip from "react-reveal/Flip";
+import { motion } from "framer-motion";
 
 function TechnicalJourney() {
   return (
@@ -37,9 +37,13 @@ function TechnicalJourney() {
         </Link>
       </div>
       <div className="mt-5">
-        <Flip top cascade>
+        <motion.div
+          initial={{ rotateX: -90, opacity: 0 }}
+          animate={{ rotateX: 0, opacity: 1 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+        >
           <h1>Technical Journey</h1>
-        </Flip>
+        </motion.div>
       </div>
       <VerticalTimeline>
         <VerticalTimelineElement

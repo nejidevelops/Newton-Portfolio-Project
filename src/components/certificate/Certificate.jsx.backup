@@ -9,13 +9,13 @@ import problem_solving from "../../images/alx.png";
 import python from "../../images/andela-react.png";
 import iq from "../../images/apprentice-cloud.jpeg";
 import computer from "../../images/datacamp-sql.png";
-import { motion } from "framer-motion";
+import Fade from "react-reveal/Fade";
 
 export default function Certificate() {
   return (
     <div className="mt-5">
       <Container>
-        
+        <Fade left cascade duration={1000} distance="20px">
           <Row className="g-5">
             <Col md={4}>
               <img
@@ -73,7 +73,7 @@ export default function Certificate() {
               />
             </Col>
           </Row>
-        
+        </Fade>
       </Container>
     </div>
   );

@@ -9,7 +9,7 @@ import pg from "../../../images/pg.png";
 import pm from "../../../images/pm.png";
 import chrome from "../../../images/chorme.svg";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import Zoom from "react-reveal/Zoom";
 
 export default function Toolkit() {
   return (
@@ -25,9 +25,9 @@ export default function Toolkit() {
           Toolkit
         </Link>
       </div>
-      
+      <Zoom left cascade>
         <h1 className="mt-4">Tools I Use</h1>
-      
+      </Zoom>
       <Container className="mt-4">
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Col xs={4} md={2} className="tech-icons">
