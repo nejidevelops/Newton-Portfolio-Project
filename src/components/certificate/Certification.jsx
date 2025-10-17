@@ -181,7 +181,7 @@ export default function Certification() {
                 viewport={{ once: true }}
               >
                 <h1 className="aboutme-heading">Certifications</h1>
-                <p className="section-subtitle">Professional achievements and continuous learning</p>
+                {/* <p className="section-subtitle">Professional achievements and continuous learning</p> */}
               </motion.div>
             </Col>
             <Col xs={12} className="mt-4">
