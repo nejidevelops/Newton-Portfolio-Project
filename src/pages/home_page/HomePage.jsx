@@ -4,7 +4,7 @@ import Particle from "../../Particle";
 import Typing from "./Typing";
 import Tilt from "react-parallax-tilt";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
-import Fade from "react-reveal/Fade";
+import { motion } from "framer-motion";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaMediumM } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
@@ -95,13 +95,17 @@ export default function Home() {
             <Col md={4} style={{ paddingBottom: 20 }}>
               <div className="img-home-main">
                 <Tilt>
-                  <Fade cascade>
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.5 }}
+                  >
                     <img
                       src="./profile.jpg"
                       alt="home pic"
                       className="img-fluid"
                     />
-                  </Fade>
+                  </motion.div>
                 </Tilt>
               </div>
             </Col>
