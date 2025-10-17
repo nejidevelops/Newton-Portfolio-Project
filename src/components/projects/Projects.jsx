@@ -220,9 +220,9 @@ export default function Projects() {
                 viewport={{ once: true }}
               >
                 <h1 className="aboutme-heading">Featured Projects</h1>
-                <p className="section-subtitle">
+                <span className="section-subtitle">
                   Showcasing my latest work and technical expertise
-                </p>
+                </span>
               </motion.div>
             </Col>
             <Col xs={12} className="mt-4">
