@@ -311,6 +311,24 @@ export default function ProjectPage() {
       <Container fluid id="home">
         <Particle />
         <Container className="home-content">
+          {/* Header Section */}
+          <motion.div
+            className="d-flex justify-content-center mb-5"
+            style={{ backgroundColor: "#fbd9ad", padding: "20px", borderRadius: "10px" }}
+            initial={{ opacity: 0, y: -30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <motion.h1
+              style={{ color: "rgb(134 61 176)", margin: 0 }}
+              initial={{ scale: 0.8 }}
+              animate={{ scale: 1 }}
+              transition={{ delay: 0.3, duration: 0.6 }}
+            >
+              ALL PROJECTS
+            </motion.h1>
+          </motion.div>
+
           {/* Projects Section */}
           <Container fluid className="projects-section" id="projects">
             <Container>
@@ -325,7 +343,7 @@ export default function ProjectPage() {
                     whileInView="visible"
                     viewport={{ once: true }}
                   >
-                    <h1 className="aboutme-heading">My Portfolio Projects</h1>
+                    <h1 className="aboutme-heading">My Complete Portfolio</h1>
                   </motion.div>
                 </Col>
 
